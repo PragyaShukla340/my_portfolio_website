@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pragya Shukla Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- External CSS libraries -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Custom CSS -->
+  <style>
+    /* Custom styles */
+    body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #343a40; /* Dark background color */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* White color for navbar toggler icon */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* White color for navbar links */
+  padding: 8px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Hover color */
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 36px;
+  color: #333; /* Black color for section titles */
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* About Section */
+.about-section {
+  background-color: #fff;
+  padding: 60px 0;
+  border-bottom: 1px solid #eee;
+}
+
+
+.about-img img {
+  width: 300px; /* Adjust size as needed */
+  height: auto;
+  border: 3px solid #007bff; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 4px; /* Padding around the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-info {
+  color: #000; /* Color of the text content */
+  padding-left: 30px;
+}
+
+.about-info p {
+  margin-bottom: 15px;
+}
+.section-title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold; /* Make the heading bold */
+    text-decoration: underline; /* Underline the heading */
+}
+
+.about-info h2,
+.resume-section h2,
+.education-section h2,
+.certificates-section h2,
+.projects-section h2,
+.contact-section h2 {
+    font-weight: bold; /* Make the heading bold */
+    text-decoration: underline; /* Underline the heading */
+}
+/* Resume, Education, Certificates, Projects Sections */
+.resume-section, .education-section, .certificates-section, .projects-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.resume-section .section-title,
+.education-section .section-title,
+.certificates-section .section-title,
+.projects-section .section-title,
+.skills-section .section-title {
+  color: #000; /* Black color for section titles */
+}
+
+/* Skills Section */
+.skills {
+  margin-top: 20px;
+}
+.skills-heading,
+.tools-heading {
+    font-weight: bold; /* Make the headings bold */
+    text-decoration: underline; /* Underline the headings */
+    margin-bottom: 10px; /* Optional: Adjust margin if needed */
+}
+
+.skills h3 {
+  color: #000; /* Black color for skills section heading */
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+}
+
+/* Projects Section */
+.project-item {
+  margin-bottom: 30px;
+}
+
+.project-item h3 a {
+  color: #007bff; /* Blue color for project links */
+}
+
+.project-item h3 a:hover {
+  color: #0056b3; /* Hover color */
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #007bff; /* Blue background color */
+  border-color: #007bff;
+  color: #fff; /* White text color */
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3;
+}
+.card-title {
+  color: #000; /* Blue color for titles */
+}
+.card {
+  height: 100%;
+  color: #884747; /* Adjust height as needed */
+  /* Add other styling properties as required */
+}
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Pragya Shukla</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#My Proficiencies">My Proficiencies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificates">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  <!-- About section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-img text-center">
+            <img src="images/about-me.png" alt="Pragya Shukla" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="about-info">
+            <h2 class="section-title">About Me</h2>
+            <p>
+              <p>Hello, I'm Pragya Shukla, a passionate second-year student pursuing BBA-Analytics. I am deeply fascinated by the world of data analysis and its applications in driving business decisions.</p>
+                        <p>With a solid foundation in Python, SQL, and data visualization tools like Tableau and Power BI, I have successfully completed projects in machine learning and predictive analytics during my studies.</p>
+                        <p>I am eager to leverage my skills and expand my knowledge through hands-on experience in a dynamic internship environment. I am particularly interested in roles where I can apply statistical analysis and data-driven insights to solve real-world problems.</p>
+                        <!-- <p>Outside of academics, I enjoy staying updated with industry trends, practicing yoga for mindfulness, and continually improving my technical skills through self-paced learning and project work.</p> -->
+                        <p>If you have an opportunity that aligns with my interests, I would love to connect and discuss how I can contribute to your team's success!</p>
+                        
+            </p>
+            <p>
+              <strong>Email:</strong> <a href="mailto:pragyashukla340@gmail.com">pragyashukla340@gmail.com</a>
+            </p>
+            <p>
+              <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pragyashukla340" target="_blank">linkedin.com/in/pragyashukla340</a>
+            </p>
+            <a href="https://drive.google.com/drive/folders/1Bh_0FVj4bbi_DMTjoHgd0qENZJXkg5A8?usp=drive_link" class="btn btn-primary">Download Resume</a>
+            <a href="https://github.com/PragyaShukla340" class="btn btn-primary">My Works</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume section -->
+  <section id="resume-section">
+    <div class="container">
+      <!-- <h2>Resume</h2> -->
+      <div class="row">
+        <div class="col-md-6">
+          <section class="skills-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skill-mf">
+                      <div class="title-s">SQL</div>
+                      <span class="pull-right">95%</span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+          
+                      <div class="title-s">Python</div>
+                      <span class="pull-right">85%</span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+          
+                      <div class="title-s">Data Visualization</div>
+                      <span class="pull-right">90%</span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+          
+                      <div class="title-s">Statistical Analysis</div>
+                      <span class="pull-right">85%</span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+          
+                      <div class="title-s">Machine Learning</div>
+                      <span class="pull-right">80%</span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+        </div>
+        <div class="col-md-6">
+          <div class="skills">
+            <h3 class="skills-heading">Proficient Tools and Technologies:</h3>
+            <ul class="skill-list">
+              <li class="skill-group">
+                <span><strong>BI Tools:</strong></span>
+                <span>Microsoft Power BI, Tableau</span>
+              </li>
+              <li class="skill-group">
+                <span><strong>Programming:</strong></span>
+                <span>Python, SQL</span>
+              </li>
+              <li class="skill-group">
+                <span><strong>Data Analysis:</strong></span>
+                <span>Pandas, NumPy, Matplotlib, scikit-learn, SciPy</span>
+              </li>
+              <li class="skill-group">
+                <span><strong>Big Data Tools:</strong></span>
+                <span>Hadoop (HDFS, MapReduce), Spark, Apache Pig, Apache Hive</span>
+              </li>
+              <li class="skill-group">
+                <span><strong>Office Tools:</strong></span>
+                <span>Excel, PowerPoint, Word</span>
+              </li>
+              </ul>
+            </p>
+            <!-- <a href="https://drive.google.com/drive/folders/1Bh_0FVj4bbi_DMTjoHgd0qENZJXkg5A8?usp=drive_link" class="btn btn-primary">Download CV</a> -->
+            <a href="https://drive.google.com/drive/folders/1Bh_0FVj4bbi_DMTjoHgd0qENZJXkg5A8?usp=drive_link" class="btn btn-primary">Download CV with cover letter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  
+  
+
+  <!-- Educational Background section -->
+  <section id="education" class="education-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title text-center">Educational Background</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="images/bbdu.png" alt="bbdu.png">
+            <div class="card-body">
+              <h5 class="card-title">Bachelor of Business Administration (Analytics)</h5>
+              <p class="card-text">Babu Banarsi Das University (2023-2026)</p>
+              <!-- <p class="card-text">1 year gpa: 9.4</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="images/lpcps.png" alt="lpcps.png">
+            <div class="card-body">
+              <h5 class="card-title"> Senior Secondary School</h5>
+              <p class="card-text">Lucknow Public School and colleges of professional studies (2019-2020)</p>
+              <p class="card-text">percentage:89%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Projects Section -->
+<section class="projects-section" id="projects">
+  <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="row">
+          <!-- Six Project Cards -->
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                <img class="card-img-top" src="images/loan_prediction.png" alt="loan_prediction.png">
+                  <div class="card-body">
+                      <h5 class="card-title">Loan_prediction(analysis and ML model) and dashboard(tableau)</h5>
+                      <!-- <p class="card-text">Description of the project.</p> -->
+                      <a href="https://github.com/PragyaShukla340/Loan_prediction-analysis-and-ml-model-" class="btn btn-primary" target="_blank">View on GitHub</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                <img class="card-img-top" src="images/election.png" alt="election.png">
+                  <div class="card-body">
+                      <h5 class="card-title">2014 & 2019 election Analysis</h5>
+                      <!-- <p class="card-text">Description of the project.</p> -->
+                      <a href="https://github.com/PragyaShukla340/Election_analysis" class="btn btn-primary" target="_blank">View on GitHub</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                <!-- <img class="card-img-top" src="images/proj_2.jpg" alt="proj_2.jpg"> -->
+                  <div class="card-body">
+                      <h5 class="card-title">Project Title</h5>
+                      <p class="card-text">Description of the project.</p>
+                      <a href="https://github.com/username/project" class="btn btn-primary" target="_blank">View on GitHub</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                <!-- <img class="card-img-top" src="images/proj_2.jpg" alt="proj_2.jpg"> -->
+                  <div class="card-body">
+                      <h5 class="card-title">Project Title</h5>
+                      <p class="card-text">Description of the project.</p>
+                      <a href="https://github.com/username/project" class="btn btn-primary" target="_blank">View on GitHub</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                <!-- <img class="card-img-top" src="images/proj_2.jpg" alt="proj_2.jpg"> -->
+                  <div class="card-body">
+                      <h5 class="card-title">Project Title</h5>
+                      <p class="card-text">Description of the project.</p>
+                      <a href="https://github.com/username/project" class="btn btn-primary" target="_blank">View on GitHub</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                <!-- <img class="card-img-top" src="images/proj_2.jpg" alt="proj_2.jpg"> -->
+                  <div class="card-body">
+                      <h5 class="card-title">Project Title</h5>
+                      <p class="card-text">Description of the project.</p>
+                      <a href="https://github.com/username/project" class="btn btn-primary" target="_blank">View on GitHub</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Certificates Section -->
+<section class="certificates-section" id="Awards and certificates">
+  <div class="container">
+      <h2 class="section-title">Certificates</h2>
+      <div class="row">
+          <!-- Six Certificate Cards -->
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                <!-- <img class="card-img-top" src="images/proj_2.jpg" alt="proj_2.jpg"> -->
+                  <div class="card-body">
+                      <h5 class="card-title">Data Visualization with Python</h5>
+                      <p class="card-text">IBM, 2023</p>
+                      <a href="https://drive.google.com/file/d/1RmizEBZTd6Oa0R1F47RGCsqZcU41jv3i/view?usp=drive_link" class="btn btn-primary" target="_blank">View Certificate</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                <!-- <img class="card-img-top" src="images/proj_2.jpg" alt="proj_2.jpg"> -->
+                  <div class="card-body">
+                      <h5 class="card-title">Big Data Fundamentals</h5>
+                      <p class="card-text">IBM, 2024</p>
+                      <a href="https://drive.google.com/file/d/1UeNvMI_0lyjEsu4eoo2hJ1pY-DX6lYW7/view?usp=drive_link" class="btn btn-primary" target="_blank">View Certificate</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                <!-- <img class="card-img-top" src="images/proj_2.jpg" alt="proj_2.jpg"> -->
+                  <div class="card-body">
+                      <h5 class="card-title">Machine Learning Using Python</h5>
+                      <p class="card-text">Simplilearn,2024</p>
+                      <a href="https://drive.google.com/file/d/1sEUf7kHsqRIb9j3HqO0F3Xd3qA8IRUEW/view?usp=sharing" class="btn btn-primary" target="_blank">View Certificate</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4"> 
+              <div class="card">
+                <!-- <img class="card-img-top" src="images/proj_2.jpg" alt="proj_2.jpg"> -->
+                  <div class="card-body">
+                      <h5 class="card-title">SQL and Relational Databases</h5>
+                      <p class="card-text">IBM, 2024</p>
+                      <a href="https://drive.google.com/file/d/1gSaTXInxKodsZCFJ6Rn5uPD8JY3Rs17c/view?usp=sharing" class="btn btn-primary" target="_blank">View Certificate</a>
+                  </div>
+              </div>
+          </div>
+          <!-- <div class="col-md-4 mb-4">
+              <div class="card">
+                <img class="card-img-top" src="images/proj_2.jpg" alt="proj_2.jpg">
+                  <div class="card-body">
+                      <h5 class="card-title">Certificate Title</h5>
+                      <p class="card-text">Institution Name, Year</p>
+                      <a href="certificate-link" class="btn btn-primary" target="_blank">View Certificate</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                <img class="card-img-top" src="images/proj_2.jpg" alt="proj_2.jpg">
+                  <div class="card-body">
+                      <h5 class="card-title">Certificate Title</h5>
+                      <p class="card-text">Institution Name, Year</p>
+                      <a href="certificate-link" class="btn btn-primary" target="_blank">View Certificate</a>
+                  </div>
+              </div>
+          </div> 
+      </div>
+  </div> -->
+</section>
+
+
+  <!-- Contact section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto text-center">
+          <h2 class="section-title">Contact Me</h2>
+          <ul class="list-unstyled contact-info">
+            <li><i class="ion-ios-location-outline"></i> Lucknow, India</li>
+            <li><i class="ion-ios-email-outline"></i> <a href="mailto:pragyashukla340@gmail.com">pragyashukla340@gmail.com</a></li>
+            <li><i class="ion-social-linkedin-outline"></i> <a href="https://www.linkedin.com/in/pragyashukla340" target="_blank">linkedin.com/in/pragyashukla340</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2024 Pragya Shukla. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- External JS libraries -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
