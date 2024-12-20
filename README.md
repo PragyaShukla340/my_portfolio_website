@@ -35,7 +35,7 @@ This is my personal portfolio website designed to highlight my professional skil
 
 ## Contact
 
-Pragya Shukla - [pragya340shukla@gmail.com](mailto:pragya340shukla@gmail.com)
+Pragya Shukla - [pragyashukla340@gmail.com](mailto:pragyashukla340@gmail.com)
 
 ## Acknowledgments
 
